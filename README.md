@@ -34,4 +34,9 @@ Answer 2
 - If you want to deploy the API, just run "uvicorn app.main:app --reload"
 
 - In order to run the frontend, run "npm run dev" and navigate to "localhost:5173".
+
+
+- The bot should work locally if run from the terminal, since I have yet to add all of the changes which store user information(chat history etc) in supabase
+- Eventually, the code for this bot will be open source, however I plan on deploying it to production, meaning you will need to create your own .env files to store your secrets(supabase keys, url etc) and connect it to your own database when the time comes
+- I will open source my Supabase config as well meaning you will get access to all of the RLS policies I have currently implemented
     
