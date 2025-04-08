@@ -33,7 +33,9 @@ Answer 2
 
 - If you want to deploy the API, just run "uvicorn app.main:app --reload"
 
-- In order to run the frontend, run "npm run dev" and navigate to "localhost:5173".
+- In order to run the frontend, cd into the frontend repo and run "npm run dev" and navigate to "localhost:5173".
+
+- ## REMEMBER, THE BACKEND SHOULD BE RUN FROM WITHIN THE ACTIVATED VENV, THE FRONTEND SHOULD BE RUN FROM OUTSIDE THE VENV IN THE FRONTEND DIR
 
 
 - The bot should work locally if run from the terminal, since I have yet to add all of the changes which store user information(chat history etc) in supabase
